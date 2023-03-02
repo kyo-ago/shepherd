@@ -33,6 +33,8 @@ Take a look at the [tutorial](docs/tutorial.md) for a detailed walkthrough of wh
 
 [Go to tutorial →](docs/tutorial.md)
 
+[Document auth requirements · Issue \#61 · NerdWalletOSS/shepherd](https://github.com/NerdWalletOSS/shepherd/issues/61)
+
 ## Motivation for using Shepherd
 
 Moving away from monorepos and monolithic applications has generally been a good thing for developers because it allows them to move quickly and independently from each other. However, it's easy to run into problems, especially if your code relies on shared libraries. Specifically, making a change to shared code and then trying to roll that shared code out to all consumers of that code becomes difficult:
